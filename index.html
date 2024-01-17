@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="landing-page">
+      <img class="image-11-icon" alt="" src="./public/image-11@2x.png" />
+
+      <div class="about-us">About us</div>
+      <div class="features">Features</div>
+      <div class="rectangle-parent" id="groupContainer">
+        <div class="group-child"></div>
+        <div class="lets-talk">Let’s Talk</div>
+      </div>
+      <img
+        class="menu-button-of-three-horizonta"
+        alt=""
+        src="./public/menu-button-of-three-horizontal-lines@2x.png"
+      />
+
+      <img
+        class="soullink-high-resolution-logo-icon"
+        alt=""
+        src="./public/soullinkhighresolutionlogo-1-1@2x.png"
+      />
+
+      <b class="lets-have-a-container">
+        <p class="lets-have-a">Let’s Have a</p>
+        <p class="lets-have-a">Conversation</p>
+      </b>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./MainPage1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
